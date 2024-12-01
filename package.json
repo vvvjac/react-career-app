@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --https --key ./key.pem --cert ./cert.pem",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,4 +35,4 @@
       "last 1 safari version"
     ]
   }
-} 
+}
